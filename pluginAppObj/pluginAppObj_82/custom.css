@@ -1,0 +1,12 @@
+/* Microsoft Ie10 and Above- @supports method */
+@media all and (-ms-high-contrast: none), (-ms-high-contrast: active) {
+	#pluginAppObj_82 {
+		overflow-x: hidden;
+	}
+}
+/* Microsoft Edge Browser 12+ (All) - @supports method */
+@supports (-ms-ime-align:auto) {
+	#pluginAppObj_82 {
+		overflow-x: hidden;
+	}
+}

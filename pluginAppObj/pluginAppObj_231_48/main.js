@@ -1,0 +1,103 @@
+function animatedslider_pluginAppObj_231_48() {
+    var pluginAppObj_231_48Swiper,
+        fullWidth = false,
+        resizeTimer; // Set resizeTimer to empty so it resets on page load
+
+    x5engine.boot.push(function(){
+           
+        resizeAnimatedSwiper_pluginAppObj_231_48();
+        loadSwiper();
+    
+		var pluginAppObj_231_48_resizeTo = null,
+		pluginAppObj_231_48_width = 0;
+		x5engine.utils.onElementResize(document.getElementById('pluginAppObj_231_48'), function (rect, target) {
+			if (pluginAppObj_231_48_width == rect.width) {
+				return;
+			}
+			pluginAppObj_231_48_width = rect.width;
+			if (!!pluginAppObj_231_48_resizeTo) {
+				clearTimeout(pluginAppObj_231_48_resizeTo);
+			}
+			pluginAppObj_231_48_resizeTo = setTimeout(function() {
+				pluginAppObj_231_48Swiper.destroy(true);
+				resizeAnimatedSwiper_pluginAppObj_231_48();
+				loadSwiper();
+			}, 50);
+		});
+
+    
+    
+    });
+
+    function resizeAnimatedSwiper_pluginAppObj_231_48(){
+        
+        var container_width = $("#pluginAppObj_231_48").width();
+        var heightUI = 666;
+        var widthUI  = 1016;
+        var height = heightUI;
+        var width = widthUI;
+        var max_width = container_width;
+        var controls_padding = 0
+        var pagination_padding = 0 
+        
+        if (!fullWidth || false) {
+            //obj in the bp ceil
+            max_width = (container_width < width ? container_width : width);
+            height = ((max_width - controls_padding) / width) * height;
+                        
+            width = max_width - controls_padding;
+            $("#swiper_pluginAppObj_231_48").css({"width": max_width,"height": height + pagination_padding});
+        }
+        else {
+            //obj fullwidth
+            if (max_width > widthUI) {
+                height = heightUI;
+            }
+            else {
+                height = ((max_width - controls_padding) / widthUI) * height;
+            }
+            
+            width = container_width - controls_padding;
+            $("#swiper_pluginAppObj_231_48").css({"height": height + pagination_padding});
+        }
+            
+        $("#pluginAppObj_231_48 .swiper-container.main").css({"width": width,"height": height});
+        $("#pluginAppObj_231_48 .swiper-button-next, #pluginAppObj_231_48 .swiper-button-prev").css({"top": height/2});
+    }
+
+    function loadSwiper(){
+    
+        pluginAppObj_231_48Swiper = new Swiper('#pluginAppObj_231_48 .swiper-container.main', {
+        freeMode:            false,
+        speed:               1000,
+        loop:                true,
+        direction:           'horizontal',
+        roundLengths:        true,
+                    pagination:          '#pluginAppObj_231_48 .swiper-pagination',
+            paginationClickable: true,
+            nextButton:          '#pluginAppObj_231_48 .swiper-button-next',
+            prevButton:          '#pluginAppObj_231_48 .swiper-button-prev',
+            effect:              getBestEffect('cube'),
+            cube:                {slideShadows: false, shadow: false},
+ 
+        });
+    }
+
+    function isIE(){
+        return navigator.userAgent.indexOf('MSIE') !== -1 || navigator.appVersion.indexOf('Trident/') > 0;
+    }
+
+    function getBestEffect(effect){
+        if(effect == 'none')
+            return 'fade';
+        
+
+        if(isIE()){
+            if (['cube', 'stack'].indexOf(effect) >= 0)
+                return 'fade'
+        }
+
+        return effect;
+    }
+
+}

@@ -1,0 +1,230 @@
+.pageflip-container {
+    position: relative;
+    -webkit-perspective: 1300px;
+    -moz-perspective: 1300px;
+    -o-perspective: 1300px;
+    -ms-perspective: 1300px;
+    perspective: 1300px;
+    box-sizing: border-box;
+}
+.click-controlled .pageflip-container {
+    cursor: pointer;
+}
+
+.pageflip-container .page {
+    position: absolute;
+    width: 50%;
+    height: 100%;
+    overflow: hidden;
+    -webkit-backface-visibility: hidden;
+    backface-visibility: hidden;
+    -webkit-transition-property: -webkit-transform, opacity;
+    -moz-transition-property: -webkit-transform, opacity;
+    -o-transition-property: -o-transform, opacity;
+    -ms-transition-property: -ms-transform, opacity;
+    transition-property: transform, opacity;
+    -webkit-transition-timing-function: ease-in-out, ease-in-out;
+    -moz-transition-timing-function: ease-in-out, ease-in-out;
+    -o-transition-timing-function: ease-in-out, ease-in-out;
+    -ms-transition-timing-function: ease-in-out, ease-in-out;
+    transition-timing-function: ease-in-out, ease-in-out;
+    -webkit-transition-delay: 0s, 0.5s;
+    -moz-transition-delay: 0s, 0.5s;
+    -o-transition-delay: 0s, 0.5s;
+    -ms-transition-delay: 0s, 0.5s;
+    transition-delay: 0s, 0.5s;
+    -webkit-transition-duration: 1s, 0s;
+    -moz-transition-duration: 1s, 0s;
+    -o-transition-duration: 1s, 0s;
+    -ms-transition-duration: 1s, 0s;
+    transition-duration: 1s, 0s;
+}
+
+.pageflip-container img {
+    position: absolute;
+}
+
+.pageflip-container .page-prev {    
+    -webkit-transform-origin: left center;
+    -moz-transform-origin: left center;
+    -o-transform-origin: left center;
+    -ms-transform-origin: left center;
+    transform-origin: left center;
+}
+
+/* Animations */
+
+.pageflip-container .page-prev-position0 {   
+    -webkit-transform: rotateY(0deg);
+    -moz-transform: rotateY(0deg);
+    -o-transform: rotateY(0deg);
+    -ms-transform: rotateY(0deg);
+    transform: rotateY(0deg);
+    opacity: 1;
+}
+
+.pageflip-container .page-prev-position1 {   
+    -webkit-transform: rotateY(-180deg);
+    -moz-transform: rotateY(-180deg);
+    -o-transform: rotateY(-180deg);
+    -ms-transform: rotateY(-180deg);
+    transform: rotateY(-180deg);
+    opacity: 0;
+}
+
+.pageflip-container .page-next {
+    -webkit-transform-origin: right center;
+    -moz-transform-origin: right center;
+    -o-transform-origin: right center;
+    -ms-transform-origin: right center;
+    transform-origin: right center;
+}
+
+.pageflip-container .page-next-position0 {
+    -webkit-transform: rotateY(180deg);
+    -moz-transform: rotateY(180deg);
+    -o-transform: rotateY(180deg);
+    -ms-transform: rotateY(180deg);
+    transform: rotateY(180deg);
+    opacity: 0;
+}
+
+.pageflip-container .page-next-position1 {
+    -webkit-transform: rotateY(0deg);
+    -moz-transform: rotateY(0deg);
+    -o-transform: rotateY(0deg);
+    -ms-transform: rotateY(0deg);
+    transform: rotateY(0deg);
+    opacity: 1;
+}
+
+/* Page Shadows */
+
+.pageflip-container .shadow {
+    -webkit-transition-property: opacity;
+    -moz-transition-property: opacity;
+    -o-transition-property: opacity;
+    -ms-transition-property: opacity;
+    transition-property: opacity;
+    -webkit-transition-timing-function: ease-in-out;
+    -moz-transition-timing-function: ease-in-out;
+    -o-transition-timing-function: ease-in-out;
+    -ms-transition-timing-function: ease-in-out;
+    transition-timing-function: ease-in-out;
+    -webkit-transition-duration: 1s;
+    -moz-transition-duration: 1s;
+    -o-transition-duration: 1s;
+    -ms-transition-duration: 1s;
+    transition-duration: 1s;
+    z-index: 4;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+}
+
+.page-prev .shadow {
+    background: -webkit-linear-gradient(left, black, transparent 50%);
+    background: -o-linear-gradient(right, black, transparent 50%);
+    background: -moz-linear-gradient(right, black, transparent 50%);
+    background: linear-gradient(to right, black, transparent 50%);
+}
+
+.page-next .shadow {
+    background: -webkit-linear-gradient(right, black, transparent 50%);
+    background: -o-linear-gradient(left, black, transparent 50%);
+    background: -moz-linear-gradient(left, black, transparent 50%);
+    background: linear-gradient(to left, black, transparent 50%);
+}
+
+.page-prev-position0 .shadow {
+    opacity: 0;
+}
+
+.page-prev-position1 .shadow {
+    opacity: 0.6;
+}
+
+.page-next-position0 .shadow {
+    opacity: 0.6;
+}
+
+.page-next-position1 .shadow {
+    opacity: 0;
+}
+
+/* Controls */
+
+.pageflip-controls {
+    text-align: center;
+    height: 32px;
+    margin: 0 auto;
+}
+
+.pageflip-controls .btn-prev, .pageflip-controls .btn-next, .pageflip-controls .btn-fullscreen {
+    position: relative;
+    margin: 5px 0 0 5px;
+    width: 24px;
+    height: 24px;
+    display: inline-block;
+    font-weight: bold;
+    font-size: 16px;
+    font-family: arial;
+    text-align: center;
+    line-height: 24px;
+    border-radius: 3px;
+    box-shadow: 0 0 2px #aaa;
+    cursor: pointer;
+    -moz-user-select: none; 
+    -khtml-user-select: none; 
+    -webkit-user-select: none; 
+    -o-user-select: none; 
+    user-select: none;
+    font-family: arial;
+}
+
+.pageflip-container .counter {
+    position: absolute;
+    right: 0;
+    left: auto;
+    bottom: 0;
+    top: auto;
+    border-top-left-radius: 5px;
+    z-index: 3;
+    padding: 4px;
+    font-family: Tahoma;
+    font-size: 9pt;
+    letter-spacing: 2px;
+}
+
+.btn-fullscreen > div {
+    position: absolute;
+    width: 3px;
+    height: 3px;
+    border-style: solid;
+}
+
+.btn-fullscreen .btn-fullscreen-topleft {
+    top: 8px;
+    left: 8px;
+    border-width: 2px 0 0 2px;
+}
+
+.btn-fullscreen .btn-fullscreen-topright {
+    top: 8px;
+    right: 8px;
+    border-width: 2px 2px 0 0;
+}
+
+.btn-fullscreen .btn-fullscreen-bottomleft {
+    bottom: 8px;
+    left: 8px;
+    border-width: 0 0 2px 2px;
+}
+
+.btn-fullscreen .btn-fullscreen-bottomright {
+    bottom: 8px;
+    right: 8px;
+    border-width: 0 2px 2px 0;
+}

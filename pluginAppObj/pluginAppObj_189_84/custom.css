@@ -1,0 +1,305 @@
+#download_button_wrapper_pluginAppObj_189_84{
+	margin: 0 auto;
+	position: relative;
+    display: inline-block;
+    vertical-align: bottom;
+}
+
+#downloadbtn_pluginAppObj_189_84 {
+
+	width: 190px;
+	height: 50px;
+
+	background-color: rgba(96, 191, 0, 1);
+
+	border-top: 1px;
+	border-right: 1px;
+	border-bottom: 1px;
+	border-left: 1px;
+	border-style: solid;
+	border-color: rgba(0, 128, 32, 1);
+
+	-webkit-border-top-left-radius: 10px;
+	-webkit-border-top-right-radius: 10px;
+	-webkit-border-bottom-right-radius: 10px;
+	-webkit-border-bottom-left-radius: 10px;
+	-moz-border-radius-topleft: 10px;
+	-moz-border-radius-topright: 10px;
+	-moz-border-radius-bottomright: 10px;
+	-moz-border-radius-bottomleft: 10px;
+	border-top-left-radius: 10px;
+	border-top-right-radius: 10px;
+	border-bottom-right-radius: 10px;
+	border-bottom-left-radius: 10px;
+
+	position: absolute;
+}
+#downloadbtn_pluginAppObj_189_84 a{
+	display: block;
+	width: 100%;
+	height: 100%;
+	font-family: Verdana;
+    font-size: 12pt;
+    font-weight: normal;
+    font-style: normal;
+	color: rgba(255, 255, 255, 1);
+	text-align: center;
+	text-decoration: none;
+
+}
+
+#downloadbtn_pluginAppObj_189_84:hover {
+	background-color: rgba(0, 128, 32, 1);
+	border-color: rgba(0, 128, 32, 1);
+}
+#downloadbtn_pluginAppObj_189_84:hover a{
+	color: rgba(255, 255, 255, 1);
+}
+
+#downloadbtn_pluginAppObj_189_84 .btn-tdiv{
+    display: table;
+    width: 100%;
+    height: 100%;
+}
+#downloadbtn_pluginAppObj_189_84 .btn-trdiv{
+    display: table-row;
+    width: 100%;
+    height: 100%;
+}
+#downloadbtn_pluginAppObj_189_84 .btn-tcdiv{
+    display: table-cell;
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+    vertical-align: middle;
+}
+
+#bubble_pluginAppObj_189_84 {
+	width: 90px;
+	height: 22px;
+
+	border: 1px solid rgba(192, 192, 192, 1);
+
+	background-color: rgba(255, 239, 191, 1);
+	color: rgba(0, 0, 0, 1);
+
+	font-family: Verdana;
+    font-size: 11pt;
+    font-weight: bold;
+    font-style: normal;
+	color: rgba(0, 0, 0, 1);
+    line-height: 22px;
+    text-align: center;
+
+	border-radius: 5px;
+    -moz-border-radius: 5px;
+    -webkit-border-radius: 5px;
+
+    position: absolute;
+}
+
+/* STYLE: NONE */
+#bubble_pluginAppObj_189_84[data-style=none]{
+	display: none !important;
+}
+
+/* STYLE: TOP */
+
+#bubble_pluginAppObj_189_84[data-style=top]:before {
+	content: '';
+	position: absolute;
+	border-style: solid;
+	border-width: 11px 8px 0;
+	border-color: rgba(192, 192, 192, 1) transparent;
+	display: block;
+	width: 0;
+	z-index: 1;
+	margin-left: -8px;
+	bottom: -11px;
+	left: 50%;
+}
+#bubble_pluginAppObj_189_84[data-style=top]:after {
+	content: '';
+	position: absolute;
+	border-style: solid;
+	border-width: 10px 7px 0;
+	border-color: rgba(255, 239, 191, 1) transparent;
+	display: block;
+	width: 0;
+	z-index: 1;
+	margin-left: -7px;
+	bottom: -10px;
+	left: 50%;
+}
+
+/* STYLE: BOTTOM */
+
+#bubble_pluginAppObj_189_84[data-style=bottom]:before {
+	content: '';
+	position: absolute;
+	border-style: solid;
+	border-width: 0 8px 11px;
+	border-color: rgba(192, 192, 192, 1) transparent;
+	display: block;
+	width: 0;
+	z-index: 1;
+	margin-left: -8px;
+	top: -11px;
+	left: 50%;
+}
+#bubble_pluginAppObj_189_84[data-style=bottom]:after {
+	content: '';
+	position: absolute;
+	border-style: solid;
+	border-width: 0 7px 10px;
+	border-color: rgba(255, 239, 191, 1) transparent;
+	display: block;
+	width: 0;
+	z-index: 1;
+	margin-left: -7px;
+	top: -10px;
+	left: 50%;
+}
+
+/* STYLE: LEFT */
+
+#bubble_pluginAppObj_189_84[data-style=left]:before {
+	content: '';
+	position: absolute;
+	border-style: solid;
+	border-width: 8px 0 8px 11px;
+	border-color: transparent rgba(192, 192, 192, 1);
+	display: block;
+	width: 0;
+	z-index: 1;
+	margin-right: -11px;
+	top: 3px;
+	right: 0;
+}
+#bubble_pluginAppObj_189_84[data-style=left]:after {
+	content: '';
+	position: absolute;
+	border-style: solid;
+	border-width: 7px 0 7px 10px;
+	border-color: transparent rgba(255, 239, 191, 1);
+	display: block;
+	width: 0;
+	z-index: 1;
+	margin-right: -10px;
+	top: 4px;
+	right: 0;
+}
+
+/* STYLE: RIGHT */
+
+#bubble_pluginAppObj_189_84[data-style=right]:before {
+	content: '';
+	position: absolute;
+	border-style: solid;
+	border-width: 8px 11px 8px 0;
+	border-color: transparent rgba(192, 192, 192, 1);
+	display: block;
+	width: 0;
+	z-index: 1;
+	margin-left: -11px;
+	top: 3px;
+	left: 0;
+}
+#bubble_pluginAppObj_189_84[data-style=right]:after {
+	content: '';
+	position: absolute;
+	border-style: solid;
+	border-width: 7px 10px 7px 0;
+	border-color: transparent rgba(255, 239, 191, 1);
+	display: block;
+	width: 0;
+	z-index: 1;
+	margin-left: -10px;
+	top: 4px;
+	left: 0;
+}
+
+/* ANIMATION ON COUNTER INCREMENT*/
+
+@-webkit-keyframes bubbleIncrement {
+  from {
+    -webkit-transform: scale3d(1, 1, 1);
+    transform: scale3d(1, 1, 1);
+  }
+
+  30% {
+    -webkit-transform: scale3d(1.05, 1.25, 1);
+    transform: scale3d(1.05, 1.25, 1);
+  }
+
+  40% {
+    -webkit-transform: scale3d(0.95, 0.9, 1);
+    transform: scale3d(0.95, 0.9, 1);
+  }
+
+  50% {
+    -webkit-transform: scale3d(1.05, 1.10, 1);
+    transform: scale3d(1.05, 1.10, 1);
+  }
+
+  65% {
+    -webkit-transform: scale3d(1, 0.95, 1);
+    transform: scale3dscale3d(1, 0.95, 1);
+  }
+
+  75% {
+    -webkit-transform: scale3d(1, 1.05, 1);
+    transform: scale3dscale3d(1, 1.05, 1);
+  }
+
+  to {
+    -webkit-transform: scale3d(1, 1, 1);
+    transform: scale3d(1, 1, 1);
+  }
+}
+
+@keyframes bubbleIncrement {
+  from {
+    -webkit-transform: scale3d(1, 1, 1);
+    transform: scale3d(1, 1, 1);
+  }
+
+  30% {
+    -webkit-transform: scale3d(1.05, 1.25, 1);
+    transform: scale3d(1.05, 1.25, 1);
+  }
+
+  40% {
+    -webkit-transform: scale3d(0.95, 0.9, 1);
+    transform: scale3d(0.95, 0.9, 1);
+  }
+
+  50% {
+    -webkit-transform: scale3d(1.05, 1.10, 1);
+    transform: scale3d(1.05, 1.10, 1);
+  }
+
+  65% {
+    -webkit-transform: scale3d(1, 0.95, 1);
+    transform: scale3dscale3d(1, 0.95, 1);
+  }
+
+  75% {
+    -webkit-transform: scale3d(1, 1.05, 1);
+    transform: scale3dscale3d(1, 1.05, 1);
+  }
+
+  to {
+    -webkit-transform: scale3d(1, 1, 1);
+    transform: scale3d(1, 1, 1);
+  }
+}
+
+.newdownload {
+  -webkit-animation-name: bubbleIncrement;
+  animation-name: bubbleIncrement;
+   -webkit-animation-duration: 1s;
+  animation-duration: 1s;
+  -webkit-animation-fill-mode: both;
+  animation-fill-mode: both;
+}

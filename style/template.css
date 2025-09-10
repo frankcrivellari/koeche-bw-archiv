@@ -1,0 +1,87 @@
+html { position: relative; margin: 0; padding: 0; height: 100%; }
+body { margin: 0; padding: 0; text-align: start; height: 100%; }
+#imPageExtContainer { min-height: 100%; }
+#imPageIntContainer { position: relative;}
+#imPage { position: relative; width: 100%; }
+#imHeaderBg { position: absolute; inset-inline-start: 0px; top: 0; width: 100%; }
+#imContent { position: relative; overflow-x: clip; }
+#imFooterBg { position: absolute; inset-inline-start: 0px; bottom: 0; width: 100%; }
+#imStickyBarContainer { visibility: hidden; position: fixed; overflow: hidden; }
+#imPageToTop { position: fixed; bottom: 30px; inset-inline-end: 30px; z-index: 100500; display: none; opacity: 0.75 }
+#imPageToTop:hover { opacity: 1; cursor: pointer; }
+@media (min-width: 1013.0px) {
+		#imPageExtContainer { background-image: none; background-color: rgba(255, 255, 192, 1); z-index: 0; position: relative; }
+		#imPage { padding-top: 5px; padding-bottom: 13px; min-width: 1013px; }
+		#imHeaderBg { height: 160px; background-image: none; background-color: rgba(255, 255, 196, 1); }
+		#imHeader { background-image: url('F64DF5AA6623688C25EA360ABAADB00E.png'); background-position: left center; background-repeat: no-repeat; background-attachment: scroll; background-color: rgba(255, 255, 255, 1); }
+		#imHeaderObjects { margin-inline-start: auto; margin-inline-end: auto; position: relative; height: 179px; width:1013px; }
+		#imContent { align-self: start; padding: 1px 0 1px 0; }
+		#imContentGraphics { min-height: 382px; background-image: none; background-color: rgba(255, 255, 196, 1); }
+		#imFooterBg { z-index: -1; height: 47px; background-image: none; background-color: transparent; }
+		#imFooter {  background-image: none; background-color: rgba(192, 192, 0, 1); }
+		#imFooterObjects { margin-inline-start: auto; margin-inline-end: auto; position: relative; height: 30px; width:1013px; }
+		#imSideBar { background-image: none; background-color: transparent; overflow: visible; zoom: 1; z-index: 200; }
+		#imSideBarObjects { position: relative; height: 382px; }
+		#imStickyBarContainer { top: 0; inset-inline-start: 0px; inset-inline-end: 0px; margin: auto; width: 100%; height: 25px; box-sizing: border-box; z-index: 10301; }
+		#imStickyBarGraphics { top: 0; inset-inline-start: 0px; inset-inline-end: 0px; margin: auto; width: 100%; height: 25px; box-sizing: border-box; background-image: none; background-color: rgba(192, 192, 0, 1); position: absolute; }
+		#imStickyBar { position: relative; top: 0; inset-inline-start: 0px; margin: auto; width: 1013px }
+		#imStickyBarObjects { position: relative; height: 25px; }
+	
+}
+@media (max-width: 1012.9px) and (min-width: 720.0px) {
+		#imPageExtContainer { background-image: url('DSC05559.JPG'); background-position: left top; background-repeat: repeat; background-attachment: scroll; background-color: transparent; z-index: 0; position: relative; }
+		#imPage { padding-top: 5px; padding-bottom: 15px; min-width: 720px; }
+		#imHeaderBg { height: 165px; background-image: none; background-color: transparent; }
+		#imHeader { background-image: url('6BB6193CACB1AC448B6D47BAC6EDD0D9.png'); background-position: left center; background-repeat: no-repeat; background-attachment: scroll; background-color: transparent; }
+		#imHeaderObjects { margin-inline-start: auto; margin-inline-end: auto; position: relative; height: 220px; width:720px; }
+		#imContent { align-self: start; padding: 2px 0 2px 0; }
+		#imContentGraphics { min-height: 380px; background-image: none; background-color: rgba(255, 255, 192, 1); }
+		#imFooterBg { z-index: -1; height: 40px; background-image: none; background-color: transparent; }
+		#imFooter {  background-image: none; background-color: rgba(192, 192, 0, 1); }
+		#imFooterObjects { margin-inline-start: auto; margin-inline-end: auto; position: relative; height: 25px; width:720px; }
+		#imSideBar { background-image: none; background-color: transparent; overflow: visible; zoom: 1; z-index: 200; }
+		#imSideBarObjects { position: relative; height: 380px; }
+		#imStickyBarContainer { top: 0; inset-inline-start: 0px; inset-inline-end: 0px; margin: auto; width: 100%; height: 25px; box-sizing: border-box; z-index: 10301; }
+		#imStickyBarGraphics { top: 0; inset-inline-start: 0px; inset-inline-end: 0px; margin: auto; width: 100%; height: 25px; box-sizing: border-box; background-image: none; background-color: rgba(192, 192, 0, 1); position: absolute; }
+		#imStickyBar { position: relative; top: 0; inset-inline-start: 0px; margin: auto; width: 720px }
+		#imStickyBarObjects { position: relative; height: 25px; }
+	
+}
+@media (max-width: 719.9px) and (min-width: 480.0px) {
+		#imPageExtContainer { background-image: url('DSC05559.JPG'); background-position: left top; background-repeat: repeat; background-attachment: scroll; background-color: transparent; z-index: 0; position: relative; }
+		#imPage { padding-top: 5px; padding-bottom: 15px; min-width: 480px; }
+		#imHeaderBg { height: 165px; background-image: none; background-color: transparent; }
+		#imHeader { background-image: url('42135EC7DBBBE8F148EA91A5DCD781DA.png'); background-position: left center; background-repeat: no-repeat; background-attachment: scroll; background-color: transparent; }
+		#imHeaderObjects { margin-inline-start: auto; margin-inline-end: auto; position: relative; height: 220px; width:480px; }
+		#imContent { align-self: start; padding: 2px 0 2px 0; }
+		#imContentGraphics { min-height: 380px; background-image: none; background-color: rgba(255, 255, 192, 1); }
+		#imFooterBg { z-index: -1; height: 40px; background-image: none; background-color: transparent; }
+		#imFooter {  background-image: none; background-color: rgba(192, 192, 0, 1); }
+		#imFooterObjects { margin-inline-start: auto; margin-inline-end: auto; position: relative; height: 25px; width:480px; }
+		#imSideBar { background-image: none; background-color: transparent; overflow: visible; zoom: 1; z-index: 200; }
+		#imSideBarObjects { position: relative; height: 380px; }
+		#imStickyBarContainer { top: 0; inset-inline-start: 0px; inset-inline-end: 0px; margin: auto; width: 100%; height: 25px; box-sizing: border-box; z-index: 10301; }
+		#imStickyBarGraphics { top: 0; inset-inline-start: 0px; inset-inline-end: 0px; margin: auto; width: 100%; height: 25px; box-sizing: border-box; background-image: none; background-color: rgba(192, 192, 0, 1); position: absolute; }
+		#imStickyBar { position: relative; top: 0; inset-inline-start: 0px; margin: auto; width: 480px }
+		#imStickyBarObjects { position: relative; height: 25px; }
+	
+}
+@media (max-width: 479.9px)  {
+		#imPageExtContainer { background-image: url('DSC05559.JPG'); background-position: left top; background-repeat: repeat; background-attachment: scroll; background-color: transparent; z-index: 0; position: relative; }
+		#imPage { padding-top: 5px; padding-bottom: 15px; }
+		#imHeaderBg { height: 165px; background-image: none; background-color: transparent; }
+		#imHeader { background-image: url('988DD1D7B8320FF088BE977471ABF4FB.png'); background-position: left center; background-repeat: no-repeat; background-attachment: scroll; background-color: transparent; }
+		#imHeaderObjects { margin-inline-start: auto; margin-inline-end: auto; position: relative; height: 220px; width:320px; }
+		#imContent { align-self: start; padding: 2px 0 2px 0; }
+		#imContentGraphics { min-height: 380px; background-image: none; background-color: rgba(255, 255, 192, 1); }
+		#imFooterBg { z-index: -1; height: 40px; background-image: none; background-color: transparent; }
+		#imFooter {  background-image: none; background-color: rgba(192, 192, 0, 1); }
+		#imFooterObjects { margin-inline-start: auto; margin-inline-end: auto; position: relative; height: 25px; width:320px; }
+		#imSideBar { background-image: none; background-color: transparent; overflow: visible; zoom: 1; z-index: 200; }
+		#imSideBarObjects { position: relative; height: 380px; }
+		#imStickyBarContainer { top: 0; inset-inline-start: 0px; inset-inline-end: 0px; margin: auto; width: 100%; height: 25px; box-sizing: border-box; z-index: 10301; }
+		#imStickyBarGraphics { top: 0; inset-inline-start: 0px; inset-inline-end: 0px; margin: auto; width: 100%; height: 25px; box-sizing: border-box; background-image: none; background-color: rgba(192, 192, 0, 1); position: absolute; }
+		#imStickyBar { position: relative; top: 0; inset-inline-start: 0px; margin: auto; width: 320px }
+		#imStickyBarObjects { position: relative; height: 25px; }
+	
+}

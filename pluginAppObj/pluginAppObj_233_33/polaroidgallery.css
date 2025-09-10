@@ -1,0 +1,43 @@
+#pluginAppObj_233_33 {
+    width: 100%;
+}
+
+.polaroid-container {
+	position: relative;
+}
+
+.polaroid-wrapper {
+	position: absolute;
+	padding: 1% 1% 4% 1%;
+	border: 1px solid #ccc;
+	box-shadow: 0 1px 1px black;
+	-moz-user-select: -moz-none;
+	-khtml-user-select: none;
+	-webkit-user-select: none;
+	-ms-user-select: none;
+	user-select: none;
+}
+
+.polaroid-image {
+	position: relative;
+	background-repeat: no-repeat;
+	background-position: center center;
+	background-size: cover;
+}
+
+.polaroid-gradient {
+	position: absolute;
+	top: 0;
+	left: 0;
+	right: 0;
+	bottom: 0;
+	opacity: 0.2;
+	background: #f0f9ff; /* Old browsers */
+	background: -moz-linear-gradient(20deg, #999999 0%, #ffffff 50%); /* FF3.6+ */
+	background: -webkit-gradient(linear, left , right, color-stop(0%,#999999), color-stop(50%,#ffffff)); /* Chrome,Safari4+ */
+	background: -webkit-linear-gradient(20deg, #999999 0%,#ffffff 50%); /* Chrome10+,Safari5.1+ */
+	background: -o-linear-gradient(20deg, #999999 0%,#ffffff 50%); /* Opera 11.10+ */
+	background: -ms-linear-gradient(20deg, #999999 0%,#ffffff 50%); /* IE10+ */
+	background: linear-gradient(20deg, #999999 0%,#ffffff 50%); /* W3C */
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#999999', endColorstr='#ffffff',GradientType=1 ); /* IE6-9 fallback on horizontal gradient */
+}

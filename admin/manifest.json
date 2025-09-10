@@ -1,0 +1,11 @@
+{
+	"name": "Kochvereine im Landesverband der Köche Baden-Württemberg-Archiv Admin",
+	"start_url": "https://mackes.eu/httpdocs/admin/",
+	"display": "standalone",
+	"background_color": "#E5E5E5",
+	"theme_color": "#F28D4F",
+	"scope": "https://mackes.eu/httpdocs/admin/",
+	"icons": [
+		{ "src": "https://mackes.eu/httpdocs/admin/images/logo.gif", "type": "image/gif", "sizes": "56x63" }
+	]
+}
