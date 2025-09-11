@@ -22,7 +22,7 @@ $imSettings['access']['users'] = array(
 		'password' => '$2a$11$R22nUrR20ngMtYeMJFK.HeewJGZaQO0FQuy.3RYkfSJP6maikCFr6',
 		'crypt_encoding' => 'csharp_bcrypt',
 		'db_stored' => false,
-		'page' => 'tagungen.php'
+		'page' => 'tagungen.html'
 	)
 );
 
