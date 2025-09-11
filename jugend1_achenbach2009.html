@@ -52,10 +52,10 @@
 	</div>
 </div>
 <ul class="menu-mobile-animated hidden">
-	<li class="imMnMnFirst imPage" data-link-paths=",/httpdocs/index.php,/httpdocs/">
+	<li class="imMnMnFirst imPage" data-link-paths=",/httpdocs/index.html,/httpdocs/">
 <div class="label-wrapper">
 <div class="label-inner-wrapper">
-		<a class="label" href="index.php">
+		<a class="label" href="index.html">
 Homepage		</a>
 </div>
 </div>
@@ -153,10 +153,10 @@ $(function () {$('#imHeader_imMenuObject_05_container ul li').not('.imMnMnSepara
 	</div>
 </div>
 <ul class="menu-mobile-animated hidden">
-	<li class="imMnMnFirst imPage" data-link-paths=",/httpdocs/index.php,/httpdocs/">
+	<li class="imMnMnFirst imPage" data-link-paths=",/httpdocs/index.html,/httpdocs/">
 <div class="label-wrapper">
 <div class="label-inner-wrapper">
-		<a class="label" href="index.php">
+		<a class="label" href="index.html">
 Homepage		</a>
 </div>
 </div>

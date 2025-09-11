@@ -10,7 +10,7 @@
 		<meta name="keywords" content="Köchinnen, Köche, Kochen, Verband der Köche, Kochorganisation, Landesverband, Zweigvereine, Koch-Wettbewerbe, Talentschmiede, AchenbachPreis, Stadtwettbewerbe, Block Süd, Baden-Württemberg, Stuttgart, Heilbronn, Freiburg, Konstanz, Heidelberg, Weikersheim, Offenburg, Nordschwarzwald, Schwarwald Baar, Göppingen, CJD, MVG, " />
 		<meta property="og:locale" content="de" />
 		<meta property="og:type" content="website" />
-		<meta property="og:url" content="https://mackes.eu/httpdocs/index.php" />
+		<meta property="og:url" content="https://mackes.eu/httpdocs/index.html" />
 		<meta property="og:title" content="Kochvereine im Landesverband der Koeche in Baden-Württemberg" />
 		<meta property="og:site_name" content="Kochvereine im Landesverband der Köche Baden-Württemberg-Archiv" />
 		<meta property="og:description" content="Der Landesverband Baden-Württemberg ist eine Organisation des Verbandes der Köche Deutschlands. Er betreut 22 Zweigvereine.  " />
@@ -39,7 +39,7 @@
 		<script src="pluginAppObj/pluginAppObj_102/main.js"></script>
 		<script>
 			window.onload = function(){ checkBrowserCompatibility('Der von Ihnen verwendete Browser unterstützt nicht die die Funktionen, die für die Anzeige dieser Website benötigt werden.','Der von Ihnen verwendete Browser unterstützt möglicherweise nicht die die Funktionen, die für die Anzeige dieser Website benötigt werden.','[1]Browser aktualisieren[/1] oder [2]Vorgang fortsetzen[/2].','http://outdatedbrowser.com/'); };
-			x5engine.utils.currentPagePath = 'index.php';
+			x5engine.utils.currentPagePath = 'index.html';
 			x5engine.boot.push(function () { x5engine.utils.imCodeProtection('hjmackes'); });
 x5engine.boot.push(function () { x5engine.imAdv.showAdv({'start': new Date(1,0,1,0,0,0), 'end': new Date(9999,11,31,22,59,59), 'delay': 0, 'callback': function(){ x5engine.imAdv.showCorner(); } }); });			x5engine.boot.push(function () { x5engine.imPageToTop.initializeButton({}); });
 		</script>
@@ -68,10 +68,10 @@ x5engine.boot.push(function () { x5engine.imAdv.showAdv({'start': new Date(1,0,1
 	</div>
 </div>
 <ul class="menu-mobile-animated hidden">
-	<li class="imMnMnFirst imPage" data-link-paths=",/httpdocs/index.php,/httpdocs/">
+	<li class="imMnMnFirst imPage" data-link-paths=",/httpdocs/index.html,/httpdocs/">
 <div class="label-wrapper">
 <div class="label-inner-wrapper">
-		<a class="label" href="index.php">
+		<a class="label" href="index.html">
 Homepage		</a>
 </div>
 </div>
@@ -169,10 +169,10 @@ $(function () {$('#imHeader_imMenuObject_05_container ul li').not('.imMnMnSepara
 	</div>
 </div>
 <ul class="menu-mobile-animated hidden">
-	<li class="imMnMnFirst imPage" data-link-paths=",/httpdocs/index.php,/httpdocs/">
+	<li class="imMnMnFirst imPage" data-link-paths=",/httpdocs/index.html,/httpdocs/">
 <div class="label-wrapper">
 <div class="label-inner-wrapper">
-		<a class="label" href="index.php">
+		<a class="label" href="index.html">
 Homepage		</a>
 </div>
 </div>
@@ -598,7 +598,7 @@ isFirstTime = false;
 						                var container = $("#pluginAppObj_96");  
 						                container.append("<div class='pluginAppObj_96_child'></div>");
 						                var container_child = $(".pluginAppObj_96_child");  
-						                var parsed_button = $.parseHTML(decode_html("&amp;lt;a href=&quot;index.php&quot; onclick=&quot;return x5engine.utils.location(\'index.php\', null, false)&quot;&amp;gt;<i role=\'img\' id=\'pluginAppObj_96_icon\' ></i>&amp;lt;/a&amp;gt;"), null, true);
+						                var parsed_button = $.parseHTML(decode_html("&amp;lt;a href=&quot;index.html&quot; onclick=&quot;return x5engine.utils.location(\'index.html\', null, false)&quot;&amp;gt;<i role=\'img\' id=\'pluginAppObj_96_icon\' ></i>&amp;lt;/a&amp;gt;"), null, true);
 						                container_child.append(parsed_button);
 						     
 						                var button = container_child.children("a").last();

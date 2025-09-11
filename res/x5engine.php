@@ -8859,7 +8859,7 @@ class ImGuestbook
 
 		$commentsArray = array();
 		foreach ($imSettings['guestbooks'] as $gb) {
-			$comments = new ImTopic($gb['id'], "", "../", "index.php?id=" . $gb['id']);
+			$comments = new ImTopic($gb['id'], "", "../", "index.html?id=" . $gb['id']);
 	        if ($gb['sendmode'] == "db")
 	            $comments->loadDb(ImDb::from_db_data(getDbData($gb['dbid'])), $gb['table']);
 	        else
@@ -10996,7 +10996,7 @@ class imSearch {
                 $count = 0;
                 $weight = 0;
                 $qs = isset($value['slug']) ? $value['slug'] : ('id=' . $key);
-                $filename = 'blog/index.php?' . $qs;
+                $filename = 'blog/index.html?' . $qs;
                 $file_content = $value['body'];
 
                 // Rimuovo le briciole dal contenuto
@@ -11065,7 +11065,7 @@ class imSearch {
                             $found_breadcrumbs[$filename] .= l10n('blog_by') . " <strong>" . $value['author'] . "</strong> ";
                         }
                         if ($value['category'] != "") {
-                            $found_breadcrumbs[$filename] .= l10n('blog_in') . " <a href=\"blog/index.php?category=" . urlencode(str_replace(' ', '_', $value['category'])) . "\" target=\"_blank\" rel=\"nofollow\">" . $value['category'] . "</a> ";
+                            $found_breadcrumbs[$filename] .= l10n('blog_in') . " <a href=\"blog/index.html?category=" . urlencode(str_replace(' ', '_', $value['category'])) . "\" target=\"_blank\" rel=\"nofollow\">" . $value['category'] . "</a> ";
                         }
                         $found_breadcrumbs[$filename] .= "&middot; ";
                     }

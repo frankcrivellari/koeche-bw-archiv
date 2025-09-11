@@ -11,7 +11,7 @@ $imSettings['access']['users'] = array(
 		'password' => '$2a$11$ceSXTE/R.CWQTIuR9hLpw.iwRhffGaPWaFbx6PXZdZz86w1w6tzqu',
 		'crypt_encoding' => 'csharp_bcrypt',
 		'db_stored' => false,
-		'page' => 'index.php'
+		'page' => 'index.html'
 	),
 	'ZV_Alle' => array(
 		'id' => 'aaabcdef',

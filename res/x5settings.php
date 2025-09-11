@@ -9,7 +9,7 @@
 $imSettings['general'] = array(
 	'site_id' => 'E21FB63F84711B835B32209657BFC592',
 	'url' => 'https://mackes.eu/httpdocs/',
-	'homepage_url' => 'https://mackes.eu/httpdocs/index.php',
+	'homepage_url' => 'https://mackes.eu/httpdocs/index.html',
 	'icon' => '',
 	'version' => '2025.2.4.0',
 	'sitename' => 'Kochvereine im Landesverband der Köche Baden-Württemberg-Archiv',
