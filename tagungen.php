@@ -12,7 +12,7 @@
 		<meta name="keywords" content="Tagungen, Landesebene, Preise, Fortbildung, Schulungen, Auszubildende," />
 		<meta property="og:locale" content="de" />
 		<meta property="og:type" content="website" />
-		<meta property="og:url" content="https://mackes.eu/httpdocs/tagungen.php" />
+		<meta property="og:url" content="https://mackes.eu/httpdocs/tagungen.html" />
 		<meta property="og:title" content="Landesverbandstagungen" />
 		<meta property="og:site_name" content="Kochvereine im Landesverband der Köche Baden-Württemberg-Archiv" />
 		<meta property="og:description" content="IM Frühjahr und Herbst und Herbst sind die Regelversammlungen. Dazu Kommen noch Wettbewerbe in den Vereinen und auf Landesebene. Die Fortbildung Talentschmiede führt der Landesverband schon mehr als 10 Jahre durch. Über 200 Auszubildende wurden schon geschult." />
@@ -30,7 +30,7 @@
 		<script src="appsresources/jssor.slider.min.js"></script>
 		<script>
 			window.onload = function(){ checkBrowserCompatibility('Der von Ihnen verwendete Browser unterstützt nicht die die Funktionen, die für die Anzeige dieser Website benötigt werden.','Der von Ihnen verwendete Browser unterstützt möglicherweise nicht die die Funktionen, die für die Anzeige dieser Website benötigt werden.','[1]Browser aktualisieren[/1] oder [2]Vorgang fortsetzen[/2].','http://outdatedbrowser.com/'); };
-			x5engine.utils.currentPagePath = 'tagungen.php';
+			x5engine.utils.currentPagePath = 'tagungen.html';
 			x5engine.boot.push(function () { x5engine.utils.imCodeProtection('hjmackes'); });
 			x5engine.boot.push(function () { x5engine.imPageToTop.initializeButton({}); });
 		</script>
@@ -113,10 +113,10 @@ Freunde		</a>
 Sponsoren		</a>
 </div>
 </div>
-	</li><li class="imMnMnMiddle imPage" data-link-paths=",/httpdocs/tagungen.php">
+	</li><li class="imMnMnMiddle imPage" data-link-paths=",/httpdocs/tagungen.html">
 <div class="label-wrapper">
 <div class="label-inner-wrapper">
-		<a class="label" href="tagungen.php">
+		<a class="label" href="tagungen.html">
 Tagungen		</a>
 </div>
 </div>
@@ -214,10 +214,10 @@ Freunde		</a>
 Sponsoren		</a>
 </div>
 </div>
-	</li><li class="imMnMnMiddle imPage" data-link-paths=",/httpdocs/tagungen.php">
+	</li><li class="imMnMnMiddle imPage" data-link-paths=",/httpdocs/tagungen.html">
 <div class="label-wrapper">
 <div class="label-inner-wrapper">
-		<a class="label" href="tagungen.php">
+		<a class="label" href="tagungen.html">
 Tagungen		</a>
 </div>
 </div>

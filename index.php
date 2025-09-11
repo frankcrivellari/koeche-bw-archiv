@@ -122,10 +122,10 @@ Freunde		</a>
 Sponsoren		</a>
 </div>
 </div>
-	</li><li class="imMnMnMiddle imPage" data-link-paths=",/httpdocs/tagungen.php">
+	</li><li class="imMnMnMiddle imPage" data-link-paths=",/httpdocs/tagungen.html">
 <div class="label-wrapper">
 <div class="label-inner-wrapper">
-		<a class="label" href="tagungen.php">
+		<a class="label" href="tagungen.html">
 Tagungen		</a>
 </div>
 </div>
@@ -223,10 +223,10 @@ Freunde		</a>
 Sponsoren		</a>
 </div>
 </div>
-	</li><li class="imMnMnMiddle imPage" data-link-paths=",/httpdocs/tagungen.php">
+	</li><li class="imMnMnMiddle imPage" data-link-paths=",/httpdocs/tagungen.html">
 <div class="label-wrapper">
 <div class="label-inner-wrapper">
-		<a class="label" href="tagungen.php">
+		<a class="label" href="tagungen.html">
 Tagungen		</a>
 </div>
 </div>
@@ -295,7 +295,51 @@ $(function () {$('#imStickyBar_imMenuObject_02_container ul li').not('.imMnMnSep
 						                }
 						                hoverbutton_pluginAppObj_102();
 						           </script>
-						       </div></div><div id="imCell_100" class=""> <div id="Sponsor_Immer1"></div><div id="imCellStyleGraphics_100" ></div><div id="imCellStyleBorders_100"></div><div id="imCellStyleTitle_100">Unsere  Sponsoren</div><div id="imObjectGallery_100"><div id="imObjectGalleryContainer_100"></div></div><script>var imObjectGallery_100_settings = {'target': '#imObjectGallery_100','backgroundColor': 'rgba(255, 255, 192, 1)','description': { 'fontSize': '10pt','fontFamily': 'Tahoma','fontStyle': 'italic','fontWeight': 'normal'},'autoplay': true,'thumbs': { 'position': 'embed', 'number': 4 },'controlBar': { 'show': false, 'color': 'rgba(185, 185, 0, 1)' },'random': false,'fullScreen': true,'slideshow': { 'active': true, buttonPrev: { url: 'gallery/b17_l.png', x: 4, y: 0, width: 24, height: 25 }, buttonNext: { url: 'gallery/b17_r.png', x: 4, y: 0, width: 24, height: 25 }, nextPrevMode: 'none'},'media': [{'type': 'image','width': 140,'height': 74,'url': 'gallery/Transgourmet.png','hiresUrl': 'gallery/Transgourmet_big.png','hiresWidth': 140,'hiresHeight': 74,'thumbUrl': 'gallery/Transgourmet_sb_thumb.png','onclick': function () { x5engine.utils.imPopUpWin('http://www.transgourmet.de/', '', -1, -1, true); },'autoplayTime': 5000,'effect': 'none'},{'type': 'image','width': 223,'height': 45,'url': 'gallery/GourmetC.png','hiresUrl': 'gallery/GourmetC_big.png','hiresWidth': 315,'hiresHeight': 63,'thumbUrl': 'gallery/GourmetC_sb_thumb.png','onclick': function () { x5engine.utils.imPopUpWin('http://www.gourmetcompetence.com/', '', -1, -1, true); },'autoplayTime': 5000,'effect': 'none'},{'type': 'image','width': 186,'height': 57,'url': 'gallery/Winterhalter.png','hiresUrl': 'gallery/Winterhalter_big.png','hiresWidth': 186,'hiresHeight': 57,'thumbUrl': 'gallery/Winterhalter_sb_thumb.png','onclick': function () { x5engine.utils.imPopUpWin('http://www.winterhalter.de/', '', -1, -1, true); },'autoplayTime': 5000,'effect': 'none'},{'type': 'image','width': 186,'height': 115,'url': 'gallery/Buchmann.png','hiresUrl': 'gallery/Buchmann_big.png','hiresWidth': 186,'hiresHeight': 115,'thumbUrl': 'gallery/Buchmann_sb_thumb.png','onclick': function () { x5engine.utils.imPopUpWin('http://www.buchmann-gmbh.de/de/start.html', '', -1, -1, true); },'autoplayTime': 5000,'effect': 'none'},{'type': 'image','width': 200,'height': 60,'url': 'gallery/Buerger.jpg','hiresUrl': 'gallery/Buerger_big.jpg','hiresWidth': 200,'hiresHeight': 60,'thumbUrl': 'gallery/Buerger_sb_thumb_arun8wr8.png','onclick': function () { x5engine.utils.imPopUpWin('http://www.buerger.de/', '', -1, -1, true); },'autoplayTime': 5000,'effect': 'none'},{'type': 'image','width': 223,'height': 69,'url': 'gallery/AchenbachPreis.png','hiresUrl': 'gallery/AchenbachPreis_big.png','hiresWidth': 300,'hiresHeight': 92,'thumbUrl': 'gallery/AchenbachPreis_sb_thumb.png','onclick': function () { x5engine.utils.imPopUpWin('http://www.achenbach.com/rudolf-achenbach-preis/der-wettbewerb', '', -1, -1, true); },'autoplayTime': 5000,'effect': 'none'},{'type': 'image','width': 200,'height': 122,'url': 'gallery/meikologo.jpg','hiresUrl': 'gallery/meikologo_big.jpg','hiresWidth': 200,'hiresHeight': 122,'thumbUrl': 'gallery/meikologo_sb_thumb.png','onclick': function () { x5engine.utils.imPopUpWin('http://www.meiko.de/', '', -1, -1, true); },'autoplayTime': 5000,'effect': 'none'},{'type': 'image','width': 176,'height': 65,'url': 'gallery/Jeremias.png','hiresUrl': 'gallery/Jeremias_big.png','hiresWidth': 176,'hiresHeight': 65,'thumbUrl': 'gallery/Jeremias_sb_thumb.png','onclick': function () { x5engine.utils.imPopUpWin('http://www.jeremias.com/', '', -1, -1, true); },'autoplayTime': 5000,'effect': 'none'},{'type': 'image','width': 150,'height': 58,'url': 'gallery/Rieber.png','hiresUrl': 'gallery/Rieber_big.png','hiresWidth': 150,'hiresHeight': 58,'thumbUrl': 'gallery/Rieber_sb_thumb.png','onclick': function () { x5engine.utils.imPopUpWin('http://www.rieber.de/', '', -1, -1, true); },'autoplayTime': 5000,'effect': 'none'},{'type': 'image','width': 200,'height': 90,'url': 'gallery/achenbach.jpg','hiresUrl': 'gallery/achenbach_big.jpg','hiresWidth': 200,'hiresHeight': 90,'thumbUrl': 'gallery/achenbach_sb_thumb.png','onclick': function () { x5engine.utils.location('http://www.achenbach.com/shop/'); },'autoplayTime': 5000,'effect': 'none'},{'type': 'image','width': 200,'height': 87,'url': 'gallery/bfdeliorg_3wz3ood5.png','hiresUrl': 'gallery/bfdeliorg_big.png','hiresWidth': 200,'hiresHeight': 87,'thumbUrl': 'gallery/bfdeliorg_sb_thumb.png','onclick': function () { x5engine.utils.imPopUpWin('https://www.bosfood.de/', '', -1, -1, true); },'autoplayTime': 5000,'effect': 'none'},{'type': 'image','width': 223,'height': 93,'url': 'gallery/FranzGKT.png','hiresUrl': 'gallery/FranzGKT_big.png','hiresWidth': 312,'hiresHeight': 129,'thumbUrl': 'gallery/FranzGKT_sb_thumb.png','onclick': function () { x5engine.utils.imPopUpWin('http://www.franz-gkt.de/', '', -1, -1, true); },'autoplayTime': 5000,'effect': 'none'},{'type': 'image','width': 223,'height': 59,'url': 'gallery/JoergGeiger.png','hiresUrl': 'gallery/JoergGeiger_big.png','hiresWidth': 335,'hiresHeight': 87,'thumbUrl': 'gallery/JoergGeiger_sb_thumb.png','onclick': function () { x5engine.utils.imPopUpWin('https://www.manufaktur-joerg-geiger.de/', '', -1, -1, true); },'autoplayTime': 5000,'effect': 'none'},{'type': 'image','width': 223,'height': 55,'url': 'gallery/KaelteRUDI.png','hiresUrl': 'gallery/KaelteRUDI_big.png','hiresWidth': 287,'hiresHeight': 70,'thumbUrl': 'gallery/KaelteRUDI_sb_thumb.png','onclick': function () { x5engine.utils.imPopUpWin('https://www.kaelte-rudi.de/home/', '', -1, -1, true); },'autoplayTime': 5000,'effect': 'none'}]};var dataimObjectGallery_100 = null;function loadimObjectGallery_100() {var startIndex = 0;if(!!dataimObjectGallery_100) {imObjectGallery_100_settings.startFrom = dataimObjectGallery_100.currentItemIndex();}var w = 0;var h = 0;w = $('#imObjectGallery_100').width();w = w + (0);var wImageMax = 223;wImageMax = wImageMax + (0);w  = Math.min(w, 223);h = w * 380 / 335;imObjectGallery_100_settings.width = w;imObjectGallery_100_settings.height = h;dataimObjectGallery_100 = x5engine.gallery(imObjectGallery_100_settings);}x5engine.boot.push(function() {var imObjectGallery_100_resizeTo = null,imObjectGallery_100_width = 0,isFirstTime = true;loadimObjectGallery_100();x5engine.utils.onElementResize(document.getElementById('imObjectGallery_100').parentNode, function (rect, target) {if (imObjectGallery_100_width == rect.width) {return;}imObjectGallery_100_width = rect.width;if (!!imObjectGallery_100_resizeTo) {clearTimeout(imObjectGallery_100_resizeTo);}imObjectGallery_100_resizeTo = setTimeout(function() {if(!isFirstTime) {loadimObjectGallery_100();}else {isFirstTime = false;}}, 50);});});</script></div><div id="imCell_99" class=""> <div id="imCellStyleGraphics_99" ></div><div id="imCellStyleBorders_99"></div><div id="imCellStyleTitle_99">Ehrungen</div><div id="imTextObject_99">
+						       </div></div><div id="imCell_100" class=""> <div id="Sponsor_Immer1"></div><div id="imCellStyleGraphics_100" ></div><div id="imCellStyleBorders_100"></div><div id="imCellStyleTitle_100">Unsere  Sponsoren</div><div id="imObjectGallery_100"><div id="imObjectGalleryContainer_100"></div></div>
+<script>
+var imObjectGallery_100_settings = {'target': '#imObjectGallery_100','backgroundColor': 'rgba(255, 255, 192, 1)','description': { 'fontSize': '10pt','fontFamily': 'Tahoma','fontStyle': 'italic','fontWeight': 'normal'},'autoplay': true,'thumbs': { 'position': 'embed', 'number': 4 },'controlBar': { 'show': false, 'color': 'rgba(185, 185, 0, 1)' },'random': false,'fullScreen': true,'slideshow': { 'active': true, buttonPrev: { url: 'gallery/b17_l.png', x: 4, y: 0, width: 24, height: 25 }, buttonNext: { url: 'gallery/b17_r.png', x: 4, y: 0, width: 24, height: 25 }, nextPrevMode: 'none'},'media': [{'type': 'image','width': 140,'height': 74,'url': 'gallery/Transgourmet.png','hiresUrl': 'gallery/Transgourmet_big.png','hiresWidth': 140,'hiresHeight': 74,'thumbUrl': 'gallery/Transgourmet_sb_thumb.png','onclick': function () { x5engine.utils.imPopUpWin('http://www.transgourmet.de/', '', -1, -1, true); },'autoplayTime': 5000,'effect': 'none'},{'type': 'image','width': 223,'height': 45,'url': 'gallery/GourmetC.png','hiresUrl': 'gallery/GourmetC_big.png','hiresWidth': 315,'hiresHeight': 63,'thumbUrl': 'gallery/GourmetC_sb_thumb.png','onclick': function () { x5engine.utils.imPopUpWin('http://www.gourmetcompetence.com/', '', -1, -1, true); },'autoplayTime': 5000,'effect': 'none'},{'type': 'image','width': 186,'height': 57,'url': 'gallery/Winterhalter.png','hiresUrl': 'gallery/Winterhalter_big.png','hiresWidth': 186,'hiresHeight': 57,'thumbUrl': 'gallery/Winterhalter_sb_thumb.png','onclick': function () { x5engine.utils.imPopUpWin('http://www.winterhalter.de/', '', -1, -1, true); },'autoplayTime': 5000,'effect': 'none'},{'type': 'image','width': 186,'height': 115,'url': 'gallery/Buchmann.png','hiresUrl': 'gallery/Buchmann_big.png','hiresWidth': 186,'hiresHeight': 115,'thumbUrl': 'gallery/Buchmann_sb_thumb.png','onclick': function () { x5engine.utils.imPopUpWin('http://www.buchmann-gmbh.de/de/start.html', '', -1, -1, true); },'autoplayTime': 5000,'effect': 'none'},{'type': 'image','width': 200,'height': 60,'url': 'gallery/Buerger.jpg','hiresUrl': 'gallery/Buerger_big.jpg','hiresWidth': 200,'hiresHeight': 60,'thumbUrl': 'gallery/Buerger_sb_thumb_arun8wr8.png','onclick': function () { x5engine.utils.imPopUpWin('http://www.buerger.de/', '', -1, -1, true); },'autoplayTime': 5000,'effect': 'none'},{'type': 'image','width': 223,'height': 69,'url': 'gallery/AchenbachPreis.png','hiresUrl': 'gallery/AchenbachPreis_big.png','hiresWidth': 300,'hiresHeight': 92,'thumbUrl': 'gallery/AchenbachPreis_sb_thumb.png','onclick': function () { x5engine.utils.imPopUpWin('http://www.achenbach.com/rudolf-achenbach-preis/der-wettbewerb', '', -1, -1, true); },'autoplayTime': 5000,'effect': 'none'},{'type': 'image','width': 200,'height': 122,'url': 'gallery/meikologo.jpg','hiresUrl': 'gallery/meikologo_big.jpg','hiresWidth': 200,'hiresHeight': 122,'thumbUrl': 'gallery/meikologo_sb_thumb.png','onclick': function () { x5engine.utils.imPopUpWin('http://www.meiko.de/', '', -1, -1, true); },'autoplayTime': 5000,'effect': 'none'},{'type': 'image','width': 176,'height': 65,'url': 'gallery/Jeremias.png','hiresUrl': 'gallery/Jeremias_big.png','hiresWidth': 176,'hiresHeight': 65,'thumbUrl': 'gallery/Jeremias_sb_thumb.png','onclick': function () { x5engine.utils.imPopUpWin('http://www.jeremias.com/', '', -1, -1, true); },'autoplayTime': 5000,'effect': 'none'},{'type': 'image','width': 150,'height': 58,'url': 'gallery/Rieber.png','hiresUrl': 'gallery/Rieber_big.png','hiresWidth': 150,'hiresHeight': 58,'thumbUrl': 'gallery/Rieber_sb_thumb.png','onclick': function () { x5engine.utils.imPopUpWin('http://www.rieber.de/', '', -1, -1, true); },'autoplayTime': 5000,'effect': 'none'},{'type': 'image','width': 200,'height': 90,'url': 'gallery/achenbach.jpg','hiresUrl': 'gallery/achenbach_big.jpg','hiresWidth': 200,'hiresHeight': 90,'thumbUrl': 'gallery/achenbach_sb_thumb.png','onclick': function () { x5engine.utils.location('http://www.achenbach.com/shop/'); },'autoplayTime': 5000,'effect': 'none'},{'type': 'image','width': 200,'height': 87,'url': 'gallery/bfdeliorg_3wz3ood5.png','hiresUrl': 'gallery/bfdeliorg_big.png','hiresWidth': 200,'hiresHeight': 87,'thumbUrl': 'gallery/bfdeliorg_sb_thumb.png','onclick': function () { x5engine.utils.imPopUpWin('https://www.bosfood.de/', '', -1, -1, true); },'autoplayTime': 5000,'effect': 'none'},{'type': 'image','width': 223,'height': 93,'url': 'gallery/FranzGKT.png','hiresUrl': 'gallery/FranzGKT_big.png','hiresWidth': 312,'hiresHeight': 129,'thumbUrl': 'gallery/FranzGKT_sb_thumb.png','onclick': function () { x5engine.utils.imPopUpWin('http://www.franz-gkt.de/', '', -1, -1, true); },'autoplayTime': 5000,'effect': 'none'},{'type': 'image','width': 223,'height': 59,'url': 'gallery/JoergGeiger.png','hiresUrl': 'gallery/JoergGeiger_big.png','hiresWidth': 335,'hiresHeight': 87,'thumbUrl': 'gallery/JoergGeiger_sb_thumb.png','onclick': function () { x5engine.utils.imPopUpWin('https://www.manufaktur-joerg-geiger.de/', '', -1, -1, true); },'autoplayTime': 5000,'effect': 'none'},{'type': 'image','width': 223,'height': 55,'url': 'gallery/KaelteRUDI.png','hiresUrl': 'gallery/KaelteRUDI_big.png','hiresWidth': 287,'hiresHeight': 70,'thumbUrl': 'gallery/KaelteRUDI_sb_thumb.png','onclick': function () { x5engine.utils.imPopUpWin('https://www.kaelte-rudi.de/home/', '', -1, -1, true); },'autoplayTime': 5000,'effect': 'none'}]};var dataimObjectGallery_100 = null;
+function loadimObjectGallery_100() {
+var startIndex = 0;
+if(!!dataimObjectGallery_100) {
+imObjectGallery_100_settings.startFrom = dataimObjectGallery_100.currentItemIndex();
+}
+var w = 0;
+var h = 0;
+w = $('#imObjectGallery_100').width();
+
+w = w + (0);
+var wImageMax = 223;
+wImageMax = wImageMax + (0);
+w  = Math.min(w, 223);
+h = w * 380 / 335;
+imObjectGallery_100_settings.width = w;
+imObjectGallery_100_settings.height = h;
+dataimObjectGallery_100 = x5engine.gallery(imObjectGallery_100_settings);
+}
+x5engine.boot.push(function() {
+var imObjectGallery_100_resizeTo = null,
+imObjectGallery_100_width = 0,
+isFirstTime = true;
+loadimObjectGallery_100();
+x5engine.utils.onElementResize(document.getElementById('imObjectGallery_100').parentNode, function (rect, target) {
+if (imObjectGallery_100_width == rect.width) {
+return;
+}
+imObjectGallery_100_width = rect.width;
+if (!!imObjectGallery_100_resizeTo) {
+clearTimeout(imObjectGallery_100_resizeTo);
+}
+imObjectGallery_100_resizeTo = setTimeout(function() {
+if(!isFirstTime) {
+loadimObjectGallery_100();
+}
+else {
+isFirstTime = false;
+}
+}, 50);
+});
+});
+</script></div><div id="imCell_99" class=""> <div id="imCellStyleGraphics_99" ></div><div id="imCellStyleBorders_99"></div><div id="imCellStyleTitle_99">Ehrungen</div><div id="imTextObject_99">
 							<div data-index="0"  class="text-tab-content grid-prop current-tab "  id="imTextObject_99_tab0" style="opacity: 1; " role="tabpanel" tabindex="0">
 								<div class="text-inner">
 									<p class="imTACenter"><span class="lh20px"><span class="cf1 ff1"><a href="ehrungen-.html" class="imCssLink inline-block" onclick="return x5engine.utils.location('ehrungen-.html', null, false)"><img class="image-1" src="images/beide.jpg"  width="242" height="182" /><span class="lh33px ff1"><i><br><span class="fs18">Unsere </span></i></span></a></span></span></p><p class="imTACenter"><span class="lh20px"><span class="cf1 ff1"><span class="lh33px ff1"><i><span class="fs18"><a href="ehrungen-.html" class="imCssLink" onclick="return x5engine.utils.location('ehrungen-.html', null, false)">Ehrenmedaillen</a></span></i></span></span></span></p>
@@ -486,7 +530,7 @@ $(function () {$('#imStickyBar_imMenuObject_02_container ul li').not('.imMnMnSep
 						       </div></div><div id="imCell_98" class=""> <div id="imCellStyleGraphics_98" ></div><div id="imCellStyleBorders_98"></div><div id="imCellStyleTitle_98">Landesverband-Baden-Württemberg Vorstand 2019</div><div id="imTextObject_98">
 							<div data-index="0"  class="text-tab-content grid-prop current-tab "  id="imTextObject_98_tab0" style="opacity: 1; " role="tabpanel" tabindex="0">
 								<div class="text-inner">
-									<p class="imTACenter"></p><p class="imTACenter"><br></p><p class="imTACenter"><a href="tagungen.php" target="_blank" class="imCssLink inline-block"><img class="image-0" src="images/Vorstand2019.jpg"  width="704" height="669" /></a><br></p><p class="imTACenter">Obere Reihe v.l: Karl Haaf, Michael Sättele, Michael Viehmann, Thomas Ballmann;</p><p class="imTACenter">Richard Beck, Vize VKD, Stefan Jung, Ruth Buntruh, Konrad Hurter, Martin Baumgärtel(Manfred Fischer fehlt) <a href="tagungen.php" onclick ="return x5engine.imShowBox({ media:[{type: 'iframe', url: 'tagungen.php', width: 1920, height: 1080, description: ''}]}, 0, this);" class="imCssLink" onclick="return x5engine.utils.location('tagungen.php', null, false)">Protokoll Baden-Baden</a></p>
+									<p class="imTACenter"></p><p class="imTACenter"><br></p><p class="imTACenter"><a href="tagungen.html" target="_blank" class="imCssLink inline-block"><img class="image-0" src="images/Vorstand2019.jpg"  width="704" height="669" /></a><br></p><p class="imTACenter">Obere Reihe v.l: Karl Haaf, Michael Sättele, Michael Viehmann, Thomas Ballmann;</p><p class="imTACenter">Richard Beck, Vize VKD, Stefan Jung, Ruth Buntruh, Konrad Hurter, Martin Baumgärtel(Manfred Fischer fehlt) <a href="tagungen.html" onclick ="return x5engine.imShowBox({ media:[{type: 'iframe', url: 'tagungen.html', width: 1920, height: 1080, description: ''}]}, 0, this);" class="imCssLink" onclick="return x5engine.utils.location('tagungen.html', null, false)">Protokoll Baden-Baden</a></p>
 								</div>
 							</div>
 						
@@ -527,7 +571,7 @@ $(function () {$('#imStickyBar_imMenuObject_02_container ul li').not('.imMnMnSep
 						</div><div id="imCell_33" class=""> <div id="imCellStyleGraphics_33" ></div><div id="imCellStyleBorders_33"></div><div id="imCellStyleTitle_33">Herbsttagung 2014 im Achalmhotel Reutlingen</div><div id="imTextObject_33">
 							<div data-index="0"  class="text-tab-content grid-prop current-tab "  id="imTextObject_33_tab0" style="opacity: 1; " role="tabpanel" tabindex="0">
 								<div class="text-inner">
-									<p class="imTACenter"><span class="fs10lh1-5"><span class="cf1 ff1"><a href="tagungen.php" target="_blank" class="imCssLink inline-block"><img class="image-1" src="images/Alle_mwuuu6ca.jpg"  width="709" height="531" /></a></span></span><br></p><p class="imTACenter"><span class="fs10lh1-5">Die Teilnehmer der Landesverbands-Tagung in Reutlingen</span></p>
+									<p class="imTACenter"><span class="fs10lh1-5"><span class="cf1 ff1"><a href="tagungen.html" target="_blank" class="imCssLink inline-block"><img class="image-1" src="images/Alle_mwuuu6ca.jpg"  width="709" height="531" /></a></span></span><br></p><p class="imTACenter"><span class="fs10lh1-5">Die Teilnehmer der Landesverbands-Tagung in Reutlingen</span></p>
 								</div>
 							</div>
 						
