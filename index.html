@@ -19,10 +19,14 @@
 <body>
   <div id="imPageExtContainer">
     <div id="imPageIntContainer">
+      <a class="screen-reader-only-even-focused" href="#imGoToCont" title="Überspringen Sie das Hauptmenü">Direkt zum Seiteninhalt</a>
+      <div id="imHeaderBg"></div>
       <div id="imPage">
         <header id="imHeader">
           <h1 class="imHidden">Startseite - Landesverband der Köche Baden-Württemberg-Archiv</h1>
           <div id="imHeaderObjects">
+
+            <!-- Logos -->
             <div id="imHeader_imObjectImage_01_container">
               <img src="images/LVBW_TITEL320.jpg" width="320" height="153" />
             </div>
@@ -34,23 +38,75 @@
             <div id="imHeader_imObjectImage_04_container">
               <img src="images/LVBW_TITEL720.jpg" width="720" height="153" />
             </div>
-          </div>
 
-          <!-- Menüleiste im Original-X5-Stil -->
-          <div id="imMnMn" class="auto">
-            <ul class="auto">
-              <li class="imMnMnFirst"><a href="index.html"><span class="imMnMnFirstBg">Homepage</span></a></li>
-              <li><a href="aktuelles.html"><span class="imMnMnFirstBg">Aktuelles</span></a></li>
-              <li><a href="jugend.html"><span class="imMnMnFirstBg">Jugend</span></a></li>
-              <li><a href="zweigvereine.html"><span class="imMnMnFirstBg">Zweigvereine</span></a></li>
-              <li><a href="freunde.html"><span class="imMnMnFirstBg">Freunde</span></a></li>
-              <li><a href="sponsoren.html"><span class="imMnMnFirstBg">Sponsoren</span></a></li>
-              <li><a href="tagungen.html"><span class="imMnMnFirstBg">Tagungen</span></a></li>
-              <li><a href="impressum.html"><span class="imMnMnFirstBg">Impressum</span></a></li>
-            </ul>
+            <!-- Menü (Header) -->
+            <div id="imHeader_imMenuObject_05_wrapper" class="template-object-wrapper">
+              <a id="imHeader_imMenuObject_05_skip_menu" href="#imHeader_imMenuObject_05_after_menu" class="screen-reader-only-even-focused">Menü überspringen</a>
+              <div id="imHeader_imMenuObject_05">
+                <nav id="imHeader_imMenuObject_05_container">
+                  <ul>
+                    <li><a href="index.html">Homepage</a></li>
+                    <li><a href="aktuelles.html">Aktuelles</a></li>
+                    <li><a href="jugend.html">Jugend</a></li>
+                    <li><a href="zweigvereine.html">Zweigvereine</a></li>
+                    <li><a href="freunde.html">Freunde</a></li>
+                    <li><a href="sponsoren.html">Sponsoren</a></li>
+                    <li><a href="tagungen.html">Tagungen</a></li>
+                    <li><a href="impressum.html">Impressum</a></li>
+                  </ul>
+                </nav>
+              </div>
+              <a id="imHeader_imMenuObject_05_after_menu" class="screen-reader-only-even-focused"></a>
+            </div>
+            <script>
+              var imHeader_imMenuObject_05_settings = {
+                'menuId': 'imHeader_imMenuObject_05',
+                'responsiveMenuEffect': 'slide',
+                'responsiveMenuLevelOpenEvent': 'mouseover',
+                'animationDuration': 1000,
+              }
+              x5engine.boot.push(function(){x5engine.initMenu(imHeader_imMenuObject_05_settings)});
+            </script>
           </div>
         </header>
 
+        <!-- Sticky Menü -->
+        <div id="imStickyBarContainer">
+          <div id="imStickyBarGraphics"></div>
+          <div id="imStickyBar">
+            <div id="imStickyBarObjects">
+              <div id="imStickyBar_imMenuObject_02_wrapper" class="template-object-wrapper">
+                <a id="imStickyBar_imMenuObject_02_skip_menu" href="#imStickyBar_imMenuObject_02_after_menu" class="screen-reader-only-even-focused">Menü überspringen</a>
+                <div id="imStickyBar_imMenuObject_02">
+                  <nav id="imStickyBar_imMenuObject_02_container">
+                    <ul>
+                      <li><a href="index.html">Homepage</a></li>
+                      <li><a href="aktuelles.html">Aktuelles</a></li>
+                      <li><a href="jugend.html">Jugend</a></li>
+                      <li><a href="zweigvereine.html">Zweigvereine</a></li>
+                      <li><a href="freunde.html">Freunde</a></li>
+                      <li><a href="sponsoren.html">Sponsoren</a></li>
+                      <li><a href="tagungen.html">Tagungen</a></li>
+                      <li><a href="impressum.html">Impressum</a></li>
+                    </ul>
+                  </nav>
+                </div>
+                <a id="imStickyBar_imMenuObject_02_after_menu" class="screen-reader-only-even-focused"></a>
+              </div>
+              <script>
+                var imStickyBar_imMenuObject_02_settings = {
+                  'menuId': 'imStickyBar_imMenuObject_02',
+                  'responsiveMenuEffect': 'slide',
+                  'responsiveMenuLevelOpenEvent': 'mouseover',
+                  'animationDuration': 1000,
+                }
+                x5engine.boot.push(function(){x5engine.initMenu(imStickyBar_imMenuObject_02_settings)});
+              </script>
+            </div>
+          </div>
+        </div>
+
+        <!-- Content -->
         <main id="imContent">
           <a id="imGoToCont"></a>
           <div id="imPageRow_1" class="imPageRow">
@@ -67,6 +123,7 @@
           </div>
         </main>
 
+        <!-- Footer -->
         <footer id="imFooter">
           <div id="imFooterObjects">
             <span><a href="impressum.html">Impressum</a></span>
